@@ -1,0 +1,45 @@
+/*dark theme*/
+.bg-black {
+  background-color: #000;
+}
+.bg-light-black {
+  background-color: #262626 !important;
+}
+.text-black {
+  color: #000
+}
+.text-light-black {
+  color: #262626 !important;
+}
+.bg-dark-primary {
+  background-color: #fcbc73 !important;
+}
+.text-dark-primary {
+  color: #fcbc73 !important;
+}
+.text-light {
+  color: #fff
+}
+.si-content form .pc::placeholder { 
+  color: #fcbc73;
+  opacity: 1;
+}
+
+/*dark theme*/
+
+
+/*light theme*/
+.bg-light {
+  background-color: #fff;
+}
+.bg-light-2 {
+  background-color: #dadcde;
+}
+.bg-light-primary {
+  background-color: #191659 !important;
+}
+.text-light-primary {
+  color: #191659 !important;
+}
+
+/*light theme*/

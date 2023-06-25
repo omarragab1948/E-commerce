@@ -1,0 +1,13 @@
+.pro{
+    align-items: center;
+    border-radius: 10px;
+}
+.f-i img {
+    height: 60% !important;
+    width: 60% !important;
+}
+@media (min-width: 576px){
+      .pro {
+        display: flex;
+      }
+}

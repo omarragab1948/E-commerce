@@ -1,0 +1,41 @@
+.product {
+   width: 17rem;
+   overflow: hidden;
+   border-radius: 10px !important;
+   font-weight: bold;
+   max-height: 28rem;
+}
+@media (max-width: 767px){
+    .product {
+        width: 90%;
+    }
+}
+
+.product-dark {
+    border: 1px solid #fcbc73 !important;
+}
+.product-light {
+    border: 1px solid #ccc !important;
+}
+.product .grand-image {
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.product .grand-image .parent-image {
+  width: 9rem;
+}
+.product .content h6{
+    height: 3rem;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+.product .content span {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.product  a {
+    text-decoration: none;
+}

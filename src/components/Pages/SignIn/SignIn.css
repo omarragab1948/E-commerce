@@ -1,0 +1,19 @@
+.si-content {
+    border-radius: 15px;
+}
+.si-content h2 {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.si-content input {
+    outline: none;
+}
+.si-content form button a:hover{
+    background-color: transparent !important;
+    border: none !important;
+}

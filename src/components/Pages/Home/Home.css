@@ -1,0 +1,32 @@
+.content-1 div {
+    font-size: 26px;
+    padding: 1px 7px 9px ;
+    border-radius: 4px 0 0 4px;
+}
+.content-1 .div-dark {
+    padding: 0px 7px 8px ;
+}
+.border-dark {
+    border: 1px solid #fcbc73 !important;
+    border-radius: 0 4px 4px 0;
+    outline: none;
+}
+.border-light {
+    outline: none;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+.content-1 .div-dark-border {
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #fcbc73 !important;
+    border-right: none !important
+}
+.border-btn-dark {
+    border: 1px solid #fcbc73 !important;
+    outline: none;
+}
+@media (min-width: 768px) {
+    .content-1 input {
+        width: 33%;
+    }
+}
